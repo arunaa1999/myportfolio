@@ -30,7 +30,7 @@ body{
 }
 
 img {
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
@@ -45,7 +45,7 @@ a {
 /*header*/
 
 .header {
-    height: 100vh;
+    height: 60vh;
 }
 
 .navbar {
@@ -93,4 +93,12 @@ a {
     .list-link {
         font-size: 1.25rem;
     }
+}
+
+.hero-section {
+    width: 80%;
+    margin: auto;
+   display: flex;
+   align-items: center;
+   height: calc(60vh - 5rem);
 }
